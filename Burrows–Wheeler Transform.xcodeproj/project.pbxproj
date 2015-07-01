@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		FEB2A8361B26E39400C2498E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FEB2A8351B26E39400C2498E /* main.m */; };
+		FEB2A83F1B26EAA800C2498E /* bwt.m in Sources */ = {isa = PBXBuildFile; fileRef = FEB2A83E1B26EAA800C2498E /* bwt.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		FEB2A8321B26E39400C2498E /* Burrows–Wheeler Transform */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Burrows–Wheeler Transform"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FEB2A8351B26E39400C2498E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FEB2A83D1B26E98B00C2498E /* bwt.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = bwt.h; sourceTree = "<group>"; };
+		FEB2A83E1B26EAA800C2498E /* bwt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = bwt.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				FEB2A8351B26E39400C2498E /* main.m */,
+				FEB2A83D1B26E98B00C2498E /* bwt.h */,
+				FEB2A83E1B26EAA800C2498E /* bwt.m */,
 			);
 			path = "Burrows–Wheeler Transform";
 			sourceTree = "<group>";
@@ -119,6 +124,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FEB2A8361B26E39400C2498E /* main.m in Sources */,
+				FEB2A83F1B26EAA800C2498E /* bwt.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

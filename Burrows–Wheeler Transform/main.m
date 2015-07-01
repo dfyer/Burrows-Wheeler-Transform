@@ -7,11 +7,16 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "bwt.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
         // insert code here...
         NSLog(@"Hello, World!");
+        NSString* original = @"#shesellsseashells";
+        NSString* encoded = @"seshshsseelllsea#l";
+        NSLog([BWT encode:original]);
+        NSLog([BWT decode:encoded]);
     }
     return 0;
 }
